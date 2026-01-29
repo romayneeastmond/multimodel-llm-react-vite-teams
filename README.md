@@ -2,6 +2,18 @@
 
 A Microsoft Teams Tab application that allows users to view shared conversations from the Multi-Model Orchestrator directly within Teams using **direct Cosmos DB access**.
 
+[![Built with React](https://img.shields.io/badge/React-19.2-blue.svg)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue.svg)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-6.2-646CFF.svg)](https://vitejs.dev/)
+
+---
+## Multi-Model Orchestrator Teams Install
+
+<img alt="Image" src="https://github.com/user-attachments/assets/a450cdff-c824-49db-9cfe-3debec644799" />
+
+### Additional Screenshots
+Additional screnshots found here, [Screenshots](https://github.com/romayneeastmond/multimodel-llm-react-vite-teams/issues/1)
+
 ## 🎯 Features
 
 - **Teams Integration**: Seamlessly embedded within Microsoft Teams as a personal tab
