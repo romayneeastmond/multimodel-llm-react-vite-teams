@@ -1,0 +1,47 @@
+{
+	"$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.24/MicrosoftTeams.schema.json",
+	"manifestVersion": "1.24",
+	"version": "1.0.0",
+	"id": "${{TEAMS_APP_ID}}",
+	"developer": {
+		"name": "Romayne Eastmond",
+		"websiteUrl": "https://github.com/romayneeastmond/multimodel-llm-react-vite-teams",
+		"privacyUrl": "https://github.com/romayneeastmond/multimodel-llm-react-vite-teams/blob/main/README.md",
+		"termsOfUseUrl": "https://github.com/romayneeastmond/multimodel-llm-react-vite-teams/blob/main/README.md"
+	},
+	"icons": {
+		"color": "color.png",
+		"outline": "outline.png"
+	},
+	"name": {
+		"short": "Multi-Model Orchestrator",
+		"full": "Multi-Model Orchestrator Conversation Viewer"
+	},
+	"description": {
+		"short": "View shared conversations from Multi-Model Orchestrator",
+		"full": "View and review shared conversation content from the Multi-Model Orchestrator directly within Microsoft Teams."
+	},
+	"accentColor": "#FFFFFF",
+	"bots": [],
+	"composeExtensions": [],
+	"staticTabs": [
+		{
+			"entityId": "index0",
+			"name": "Multi-Model Conversation",
+			"contentUrl": "${{TAB_ENDPOINT}}/tabs/home",
+			"websiteUrl": "${{TAB_ENDPOINT}}/tabs/home",
+			"scopes": [
+				"personal",
+				"groupChat",
+				"team"
+			]
+		}
+	],
+	"permissions": [
+		"identity",
+		"messageTeamMembers"
+	],
+	"validDomains": [
+		"${{TAB_DOMAIN}}"
+	]
+}
