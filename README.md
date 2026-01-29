@@ -112,6 +112,10 @@ The Teams app accepts:
 - **Query parameters**: `?share=abc123` or `?share=abc123&group=xyz789`
 - **Parameters only**: `share=abc123` or `share=abc123&group=xyz789`
 
+### Multi-Model Orchestrator Conversation View
+
+<img alt="Image" src="https://github.com/user-attachments/assets/611ccb10-fbde-436e-9902-ff33f4b0411f" />
+
 ### How It Works
 
 1. User opens the app in Teams
