@@ -25,7 +25,7 @@
 		"@microsoft/teams.dev": "^2.0.0",
 		"@microsoft/teams.graph": "^2.0.0",
 		"@microsoft/teams.graph-endpoints": "^2.0.0",
-		"dompurify": "^3.3.1",
+		"dompurify": "^3.4.17",
 		"jsdom": "^27.4.0",
 		"marked": "^17.0.1",
 		"react": "^19.0.0",
